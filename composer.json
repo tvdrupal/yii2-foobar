@@ -1,0 +1,21 @@
+{
+    "name": "jason/yii2-foobar",
+    "description": "description first ext",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "jason ",
+            "email": "asd@as.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jason\\foobar\\": ""
+        }
+    }
+}
